@@ -14,7 +14,7 @@ NestJS REST API for the IP Geo JLabs Basic Assessment Exam. Handles user authent
 ## Requirements
 
 - Node.js v18+ (developed and tested on v20.17.0)
-- MySQL running locally (XAMPP recommended, or standalone MySQL)
+- XAMPP v3.3.0 (or any MySQL setup) — **both Apache and MySQL must be running**
 
 ---
 
@@ -58,7 +58,7 @@ FRONTEND_URL=http://localhost:5173
 
 ### 3. Create the database
 
-Start MySQL (via XAMPP Control Panel or your MySQL service), then open phpMyAdmin at http://localhost/phpmyadmin and create a new database named `ip_geo_db`.
+Open **XAMPP Control Panel v3.3.0**, click **Start** on both **Apache** and **MySQL**, then open phpMyAdmin at http://localhost/phpmyadmin and create a new database named `ip_geo_db`.
 
 > **Note:** TypeORM runs with `synchronize: true` in development — it will automatically create the `users` and `search_histories` tables on first start. You do **not** need to run any migrations.
 

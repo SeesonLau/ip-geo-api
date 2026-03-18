@@ -42,7 +42,7 @@ DB_PORT=3306
 DB_USERNAME=root
 DB_PASSWORD=
 DB_DATABASE=ip_geo_db
-JWT_SECRET=your_strong_secret_key_here
+JWT_SECRET=5047d6de7345e0a3c54df9a65965cc34b3be6ea2b7a3a402a04ccd52e55bb2f5
 FRONTEND_URL=http://localhost:5173
 ```
 

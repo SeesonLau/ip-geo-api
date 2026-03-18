@@ -10,7 +10,7 @@ export class SearchHistory {
   ip: string;
 
   @Column({ type: 'json' })
-  data: object;
+  data: Record<string, unknown>;
 
   @Column()
   userId: number;

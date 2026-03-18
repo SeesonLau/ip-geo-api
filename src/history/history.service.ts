@@ -10,7 +10,7 @@ export class HistoryService {
     private historyRepo: Repository<SearchHistory>,
   ) {}
 
-  async save(userId: number, ip: string, data: object): Promise<SearchHistory> {
+  async save(userId: number, ip: string, data: Record<string, unknown>): Promise<SearchHistory> {
     const existing = await this.historyRepo.findOne({ where: { userId, ip } });
     if (existing) {
       existing.data = data;

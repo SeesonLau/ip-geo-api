@@ -13,7 +13,7 @@ NestJS REST API for the IP Geo JLabs Basic Assessment Exam. Handles user authent
 
 ## Requirements
 
-- Node.js v18+
+- Node.js v18+ (developed and tested on v20.17.0)
 - MySQL running locally (XAMPP recommended, or standalone MySQL)
 
 ---
